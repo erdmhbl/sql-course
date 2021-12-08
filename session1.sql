@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 /*===================================================
   SELECT
+=======
+/*=================================================
+ SELECT
+>>>>>>> 56bb1de50cb27c8d59b0d8342a324a59487c73a1
 ===================================================*/
 	/* tracks tablosundaki track isimlerini (name) sorgulayınız */
 	SELECT name FROM tracks;
@@ -12,7 +17,7 @@
 	
 	
 /*===================================================
-													DISTINCT
+DISTINCT
 ===================================================*/
 	/*tracks tablosundaki composer bilgileri sorgulayınız (TEKRARLI OLABİLİR)*/
 	SELECT Composer FROM tracks;
@@ -25,7 +30,7 @@
 	SELECT DISTINCT AlbumId, MediaTypeId FROM tracks;
 		
 /*===================================================
-														WHERE
+WHERE
 ====================================================*/
 
 	/*Composer'ı Jimi Hendrix olan şarkıları sorgulayiniz*/
